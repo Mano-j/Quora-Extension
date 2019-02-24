@@ -1,0 +1,111 @@
+/* body */
+body {
+    background-color: #202020 !important;
+}
+
+/* ticker-style */
+div.grid_page {
+    background-color: #161616 !important;
+}
+
+/* Nav Bar */
+.SiteHeader {
+    background-color: black !important;
+    border-bottom: 1px solid rgb(63, 63, 63) !important;
+}
+
+/* Nav Text */
+span.expanded {
+    color: gainsboro !important;
+}
+
+/* Answer text */
+.ui_qtext_rendered_qtext, .rendered_qtext {
+    color: #999 !important;
+}
+
+
+.selector_input.text{
+    color: gainsboro !important;
+}
+
+/* Ad text */
+/* Do not use this to make ad less visible */
+/* .content_title{
+    color: #999 !important;
+} */
+
+
+
+div[class*="story"]{
+    background-color: black !important;
+}
+
+div[id$="item"]{
+    background-color: black !important;
+}
+
+.container, div[class*="bundle"] {
+    background-color: black !important;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+/* Comments background */
+.comments_preview_toggle, .answer_auto_expanded_comments, .show_child_link {
+    background-color: black !important;
+}
+
+/* UserID and Topic Hovercard background */
+.BetterUserHoverMenuContents, .BetterTopicHoverMenuContents.ObjectCard {
+    background-color: #1e1e1e !important; 
+}
+
+
+ /* .button_text */
+/* UserName, Topic name in 'Discover Topics', "Questions for you"*/
+a.user, .NameCredential, .TopicName, .header_text_main {
+    color: lightgrey !important;
+    
+}
+
+
+.layout_1col_main_card, .layout_1col_secondary_card{
+    background-color: black !important;
+}
+
+.grid_page h3{
+    color: #949494 !important;
+}
+
+.AboutListItem .main_text ,.UserCredential{
+    color: #949494 !important;
+}
+
+.icon_action_bar.sticky, .hover_menu_title{
+    background-color: black !important;
+}
+
+.hover_menu_contents, .Notif {
+    background-color: #1e1e1e !important; 
+    color: white !important;
+}
+
+/* .SiteHeader .NotifsHoverMenuContents .hover_menu_title, .LoggedInSiteHeader .NotifsHoverMenuContents .hover_menu_title, .NonMemberSiteHeader .NotifsHoverMenuContents .hover_menu_title {
+    background-color: black !important;
+} */
