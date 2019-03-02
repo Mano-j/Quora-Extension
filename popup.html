@@ -1,36 +1,31 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Quora Downloader</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="popup.js"></script>
-    <link rel="stylesheet" type="text/css" href="popup.css">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quora Downloader</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        
 
-    <!-- <script>
-        function checkedValue(){
-            var checkedValue = null; 
-            var inputElement = document.getElementById('togBtn');
-            checkedValue = inputElement.value;
-            document.write(checkedValue);
-        }
-    </script> -->
+    </head>
+    <body>
+        <div style="height: 100; width: 250;">
+            <h2>Quora Downloader</h2>
 
-</head>
-<body>
-    <div style="height: 100; width: 250;">
-    <h2>Quora Downloader</h2>
+            <label class="switch">
+                <input type="checkbox" id="togBtn" checked>
+                <div class="slider round">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                </div>
+            </label>
+            <div id="hello"></div>
 
-    <label class="switch">
-    <input type="checkbox" id="togBtn" onclick="checkedValue()">
-    <div class="slider round">
-        <span class="on">ON</span>
-        <span class="off">OFF</span>
-    </div>
-</label>
+        </div>
 
 
-    </div>
-</body>
+
+        <script src="popup.js"></script>
+    </body>
 </html>

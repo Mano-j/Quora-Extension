@@ -20,12 +20,12 @@
       "persistent": false
     },
 
-    "content_scripts":[
-      {
-        "matches": ["https://www.quora.com/*"],
-        "css": ["quora.css"]
-      }
-    ],
+    // "content_scripts":[
+    //   {
+    //     "matches": ["https://www.quora.com/*"]
+    //     // "css": ["quora.css"]
+    //   }
+    // ],
   
     "permissions": [
             "storage",
@@ -33,7 +33,7 @@
             "contextMenus",
             "tabs",
             "https://www.quora.com/*"
-          ]
-  
+    ]
+    
     // "options_page": "options.html"
   }

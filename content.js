@@ -1,8 +1,15 @@
-chrome.runtime.sendMessage({todo: "showPageAction"});
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
-    if (request.todo == "changeColor"){
-        var addColor = '#' + request.clickedColor;               
-        $('.title').css('font-style','italic');
-         $('.title').css('color', addColor);
-    }
-});
+var quoraCss = document.createElement("link");
+quoraCss.type = "text/css";
+quoraCss.rel = "stylesheet";
+var src = chrome.extension.getURL("quoraWithoutComments.css");
+console.log(src);
+quoraCss.href = src;
+
+// document.body.appendChild(quoraCss);
+
+// chrome.tabs.insertCSS({file:"style.css"});
+
+
+// chrome.browserAction.onClicked.addListener(function(tab) {
+//     chrome.tabs.insertCSS({file:"style.css"});
+//   });
